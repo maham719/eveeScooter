@@ -40,6 +40,7 @@ nav .logo i {
   display: none;
 }
 .nav-links {
+  min-width: 60%;
   width: 60%;
   display: flex;
   gap: 1rem;
@@ -835,7 +836,7 @@ a {
   }
 }
 
-@media screen and (min-width: 401px) and (max-width: 720px) {
+@media screen and (min-width: 401px) and (max-width:700px){
     .models-section-title {
         width: 100%;
         height: auto;
@@ -844,11 +845,10 @@ a {
         flex-direction: column;
         justify-content: center;
         gap: 1rem;
-        padding: 0 4%;
         text-align: center;
       }
       .models {
-        width: sreen;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -862,7 +862,6 @@ a {
         width: 98%;
         min-height: 600px;
         background-color: white;
-        padding: 2% 1%;
       }
       .comparison-cards {
         flex-direction: column;
@@ -1034,7 +1033,7 @@ a {
         justify-content: space-evenly;
       }
       nav .logo img {
-        width: 5rem;
+        width: 4rem;
       }
       .logo p {
         width: 100%;
@@ -1050,7 +1049,7 @@ a {
     }
 }
 
-@media screen and (min-width: 1281px) and (max-width: 1440px) {
+@media screen and (min-width: 1000px) {
     .nav-links{
         display: flex;
     }
